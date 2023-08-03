@@ -4,7 +4,6 @@ import "./styles/index.scss"
 function App() {
   return (
     <body className="body">
-      
      <HomePage />
     </body>
   )
