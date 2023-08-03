@@ -1,0 +1,21 @@
+.financeSection {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 0.9375rem;
+margin-top: 1.875rem;
+
+ ul {
+    max-width: 21rem;
+    width: 100%;
+ }
+}
+
+ @media (min-width: 768px) {
+   .financeSection {
+      ul {
+         max-width: 100%;
+   
+      }
+   }
+}

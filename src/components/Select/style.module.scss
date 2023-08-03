@@ -1,0 +1,14 @@
+.selectBox {
+    display: flex;
+    flex-direction: column;
+    
+    select {
+        max-width: 19.5625rem;
+        max-height: 3rem;
+        height: 3rem;
+        margin-top: 0.625rem;
+        color:#343A40;
+        border: 2px solid #F8F9FA;
+        padding-left: 0.625rem;
+    }
+}

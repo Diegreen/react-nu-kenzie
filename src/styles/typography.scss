@@ -1,0 +1,16 @@
+.title {
+    font-weight: bold;
+    font-family: var(--font-primary);
+    
+    &.one {
+        font-size: 1.75rem;
+    }
+
+    &.two {
+        font-size: 1.5rem;
+    }
+
+    &.tree {
+        font-size: 1.25rem;
+    }
+}
