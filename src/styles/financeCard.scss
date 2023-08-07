@@ -1,0 +1,42 @@
+.list {
+    background-color: var(--grey-four);
+    border-left: 0.25rem solid var(--color-secondary);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.9375rem;
+    gap: 0.9375rem;
+    padding-left: 0.9375rem;
+    border-radius: 0.625rem;
+
+    div {
+
+        display: flex;
+        flex-direction: column;
+        gap: 0.9375rem;
+        p {
+            font-size: 0.75rem;
+            color: var(--grey--two);
+            font-weight: 400;
+        }
+        
+        button {
+            text-align: start;
+            font-size: 0.625rem;
+            padding-left: 0.9375rem;
+            margin-bottom: 0.9375rem;
+        }
+    }
+        
+}
+
+@media (min-width: 768px) {
+    .list {
+        div {
+            flex-direction: row;
+            height: 35px;
+            justify-content: space-between;
+            padding-right: 1.9375rem;
+        }
+    }
+}

@@ -1,14 +1,13 @@
-import { FinanceList } from "../../components/Finance-List";
-import { FormSection } from "../../components/Form";
 import { Header } from "../../components/Header";
+import { FinAndFormSection } from "../../section/FinanceAndFormSect";
 
 export const HomePage = () => {
+
   return (
     <>
       <Header />
       <main className="main">
-          <FormSection />
-          <FinanceList />
+          <FinAndFormSection />
       </main>
     </>
    
